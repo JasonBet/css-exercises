@@ -35,12 +35,35 @@ a {
   text-decoration: none;
 }
 
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.content {
+  align-self: center;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 8px;
   padding: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #eee;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
 }
 
 .left-links,
